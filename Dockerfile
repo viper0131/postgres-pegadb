@@ -1,4 +1,5 @@
-FROM nlmacamp/pljava
+#FROM nlmacamp/pljava
+FROM nlmacamp/postgres-pljava
 
 RUN \
     locale-gen nl_NL && \
