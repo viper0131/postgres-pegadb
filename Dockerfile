@@ -1,4 +1,3 @@
-#FROM nlmacamp/pljava
 FROM nlmacamp/postgres-pljava
 
 RUN \
