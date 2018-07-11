@@ -12,3 +12,8 @@ SELECT sqlj.get_classpath('javatest');
 SELECT sqlj.set_classpath('javatest', 'examples');
 SELECT sqlj.get_classpath('javatest');
 SELECT javatest.java_addone(3);
+
+CREATE SCHEMA pegarules AUTHORIZATION pegabase;
+CREATE SCHEMA pegadata AUTHORIZATION pegabase;
+ALTER SCHEMA sqlj  OWNER TO pegabase;
+
